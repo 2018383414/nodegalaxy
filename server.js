@@ -8,7 +8,7 @@ app.use(express.static('public'));
 // API：获取 IP 信息
 app.get('/api/ip', async (req, res) => {
   try {
-    const response = await fetch('https://ipapi.co/json');
+    const response = await fetch('http://ip-api.com/json');
     const data = await response.json();
     res.json(data);
   } catch (err) {
