@@ -2,6 +2,7 @@
   "name": "hello-world-web",
   "version": "1.0.0",
   "scripts": {
+    "build": "echo Build completed",
     "start": "node server.js"
   },
   "dependencies": {
